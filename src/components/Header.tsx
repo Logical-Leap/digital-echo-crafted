@@ -1,17 +1,22 @@
 import { useState, useEffect } from "react";
-import { Phone, X, Grid3X3 } from "lucide-react";
+import { Phone, X, Grid3X3, Moon, Sun } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 
 const navLinks = ["Home", "Services", "About", "FAQ's", "Contact"];
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [dark, setDark] = useState(true);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", dark);
+  }, [dark]);
 
   const scrollTo = (id: string) => {
     const map: Record<string, string> = {
@@ -55,12 +60,16 @@ export default function Header() {
 
         {/* Right Side */}
         <div className="flex items-center gap-4">
+          {/* Phone with "Any Question" label in bordered box */}
           <a
             href="tel:504-285-2241"
-            className="hidden md:flex items-center gap-2 text-sm text-foreground/80 hover:text-primary transition-colors"
+            className="hidden md:flex flex-col items-center gap-0.5 border border-border rounded-md px-4 py-2 text-foreground/80 hover:text-primary transition-colors"
           >
-            <Phone size={16} />
-            <span>504-285-2241</span>
+            <span className="text-[10px] uppercase tracking-wider text-foreground/50">Any Question</span>
+            <span className="flex items-center gap-2 text-sm">
+              <Phone size={14} />
+              504-285-2241
+            </span>
           </a>
 
           {/* Side Menu */}
@@ -107,6 +116,15 @@ export default function Header() {
               </div>
             </SheetContent>
           </Sheet>
+
+          {/* Dark/Light Mode Toggle */}
+          <button
+            onClick={() => setDark(!dark)}
+            className="p-2 text-foreground/80 hover:text-primary transition-colors"
+            aria-label="Toggle dark mode"
+          >
+            {dark ? <Sun size={20} /> : <Moon size={20} />}
+          </button>
         </div>
       </div>
     </header>
