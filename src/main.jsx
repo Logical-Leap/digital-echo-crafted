@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import ServicePage from "./app/services/page";
-import WebDesignPage from "./app/services/web-design/page";
-import Aboutpage from "./app/about/page";
-import FaqPage from "./app/faq/page";
-import ContactPage from "./app/contact/page";
+import ServicePage from "./app/services/page.jsx";
+import WebDesignPage from "./app/services/web-design/page.jsx";
+import Aboutpage from "./app/about/page.jsx";
+import FaqPage from "./app/faq/page.jsx";
+import ContactPage from "./app/contact/page.jsx";
 
 // CSS imports (order matters - style.css last to override)
 import "../public/assets/css/bootstrap.min.css";
