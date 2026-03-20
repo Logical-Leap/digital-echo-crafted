@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+// Digital Kingsmen - Vite SPA
 import ScrollProgress from "@/components/common/ScrollProgress";
 import ThemeSwitch from "@/components/common/Theme";
 import useWow from "@/hooks/useWow";
