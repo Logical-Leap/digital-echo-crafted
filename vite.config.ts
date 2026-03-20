@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 export default defineConfig({
   plugins: [react()],
   resolve: {
+    extensions: ['.mjs', '.js', '.mts', '.ts', '.jsx', '.tsx', '.json'],
     alias: {
       "@": path.resolve(__dirname, "./src"),
       "next/link": path.resolve(__dirname, "./src/shims/next-link.jsx"),
