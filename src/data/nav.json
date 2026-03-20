@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "label": "Home",
+    "link": "/"
+  },
+  {
+    "id": "2",
+    "label": "Services",
+    "link": "/services"
+  },
+  {
+    "id": "8",
+    "label": "About",
+    "link": "/about"
+  },
+  {
+    "id": "7",
+    "label": "FAQ's",
+    "link": "/faq"
+  },
+  {
+    "id": "6",
+    "label": "Contact",
+    "link": "/contact",
+    "icon": false
+  }
+]
