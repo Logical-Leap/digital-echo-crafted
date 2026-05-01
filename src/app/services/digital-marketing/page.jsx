@@ -20,6 +20,8 @@ const DigitalMarketingPage = () => (
     faqSubtitle="Common questions about our marketing services, pricing, and process."
     faqItems={faqs.digitalMarketing}
     faqIdPrefix="digital-marketing-faq"
+    secondaryCtaLabel="See Marketing FAQs"
+    secondaryCtaTarget="faq"
   />
 );
 

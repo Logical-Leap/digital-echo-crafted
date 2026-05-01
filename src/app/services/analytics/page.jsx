@@ -20,6 +20,8 @@ const AnalyticsPage = () => (
     faqSubtitle="Common questions about analytics, tracking, and reporting."
     faqItems={faqs.analytics}
     faqIdPrefix="analytics-faq"
+    secondaryCtaLabel="Request a Tracking Audit"
+    secondaryCtaTarget="contact"
   />
 );
 

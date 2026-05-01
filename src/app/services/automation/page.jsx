@@ -20,6 +20,8 @@ const AutomationPage = () => (
     faqSubtitle="Common questions about workflow automation and integrations."
     faqItems={faqs.automation}
     faqIdPrefix="automation-faq"
+    secondaryCtaLabel="Map My Workflow"
+    secondaryCtaTarget="contact"
   />
 );
 

@@ -20,6 +20,8 @@ const BrandDevelopmentPage = () => (
     faqSubtitle="Common questions about our branding process and deliverables."
     faqItems={faqs.brandDevelopment}
     faqIdPrefix="brand-development-faq"
+    secondaryCtaLabel="See Branding FAQs"
+    secondaryCtaTarget="faq"
   />
 );
 

@@ -20,6 +20,8 @@ const ConsultationsPage = () => (
     faqSubtitle="Common questions about our consultation process."
     faqItems={faqs.consultations}
     faqIdPrefix="consultations-faq"
+    secondaryCtaLabel="Book a Free Call"
+    secondaryCtaTarget="contact"
   />
 );
 
