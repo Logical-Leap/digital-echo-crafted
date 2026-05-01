@@ -31,8 +31,26 @@ const ServicePageTemplate = ({
   faqSubtitle = "Common questions about this service. Can't find your answer? Get in touch for a free consultation.",
   faqItems = [],
   faqIdPrefix = "service-faq",
+  // Unique secondary CTA per service. target = "faq" | "contact"
+  secondaryCtaLabel,
+  secondaryCtaTarget = "faq",
 }) => {
   useWow();
+
+  const handleScroll = (e) => {
+    e.preventDefault();
+    const id =
+      secondaryCtaTarget === "contact"
+        ? "service-contact"
+        : `${faqIdPrefix}-section`;
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const showSecondary =
+    !!secondaryCtaLabel &&
+    (secondaryCtaTarget === "contact" || faqItems.length > 0);
+
   return (
     <MainLayout>
       <div
