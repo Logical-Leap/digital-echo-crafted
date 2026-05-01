@@ -78,15 +78,55 @@ const ServicePageTemplate = ({
                       </li>
                     ))}
                   </ul>
-                  <Link
-                    href="/contact"
-                    className="primary-btn2 wow animate fadeInUp"
-                    data-wow-delay="300ms"
-                    data-wow-duration="800ms"
-                    data-text="Discuss My Project"
-                  >
-                    <span>Discuss My Project</span>
-                  </Link>
+                  <div className="d-flex flex-wrap gap-3 align-items-center">
+                    <Link
+                      href="/contact"
+                      className="primary-btn2 wow animate fadeInUp"
+                      data-wow-delay="300ms"
+                      data-wow-duration="800ms"
+                      data-text="Discuss My Project"
+                    >
+                      <span>Discuss My Project</span>
+                    </Link>
+                    {showSecondary && (
+                      <a
+                        href={
+                          secondaryCtaTarget === "contact"
+                            ? "#service-contact"
+                            : `#${faqIdPrefix}-section`
+                        }
+                        onClick={handleScroll}
+                        className="explore-btn wow animate fadeInUp"
+                        data-wow-delay="400ms"
+                        data-wow-duration="800ms"
+                        aria-label={secondaryCtaLabel}
+                        style={{
+                          minHeight: "44px",
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: "8px",
+                          padding: "12px 20px",
+                          fontWeight: 600,
+                          cursor: "pointer",
+                        }}
+                      >
+                        {secondaryCtaLabel}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width={12}
+                          height={12}
+                          viewBox="0 0 12 12"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M6 0L4.94 1.06l4.19 4.19H0v1.5h9.13l-4.19 4.19L6 12l6-6z"
+                          />
+                        </svg>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
               <div
