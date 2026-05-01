@@ -345,7 +345,7 @@ const Features = () => {
                           </ul>
                         </div>
                         <Link
-                          href="/services#analytics-service"
+                          href="/services/analytics"
                           className="primary-btn2"
                           data-text="Learn More"
                         >
@@ -449,7 +449,7 @@ const Features = () => {
                           </ul>
                         </div>
                         <Link
-                          href="/services#marketing-service"
+                          href="/services/digital-marketing"
                           className="primary-btn2"
                           data-text="Learn More"
                         >
@@ -553,7 +553,7 @@ const Features = () => {
                           </ul>
                         </div>
                         <Link
-                          href="/services#brand-development-service"
+                          href="/services/brand-development"
                           className="primary-btn2"
                           data-text="Learn More"
                         >
@@ -657,7 +657,7 @@ const Features = () => {
                           </ul>
                         </div>
                         <Link
-                          href="/services#automation-services"
+                          href="/services/automation"
                           className="primary-btn2"
                           data-text="Learn More"
                         >
@@ -761,7 +761,7 @@ const Features = () => {
                           </ul>
                         </div>
                         <Link
-                          href="/services#consultation-services"
+                          href="/services/consultations"
                           className="primary-btn2"
                           data-text="Learn More"
                         >
