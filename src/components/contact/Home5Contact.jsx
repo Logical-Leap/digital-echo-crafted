@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const Home5Contact = () => {
   return (
     <>
-      <div className="home5-contact-section">
+      <div className="home5-contact-section" id="service-contact">
         <div className="container">
           <div className="row g-4 mb-60">
             <div

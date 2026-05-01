@@ -9,7 +9,7 @@ const ServiceFaq = ({ title = "Frequently Asked Questions", sectionTitle = "Web 
   const rightItems = items.slice(mid);
 
   return (
-    <div className="home3-faq-section mb-110">
+    <div className="home3-faq-section mb-110" id={`${idPrefix}-section`}>
       <div className="container">
         <div className="row justify-content-center mb-70">
           <div className="col-lg-8">
