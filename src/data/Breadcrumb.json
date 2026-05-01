@@ -36,45 +36,51 @@
   },
   {
     "id": "29",
-    "name": "SERVICES",
+    "name": "Web Design",
     "slug": "/services/web-design",
     "pageTitle": "Expert Web Design Services",
-    "section_down_scroll": "#service-details-section"
+    "section_down_scroll": "#service-details-section",
+    "parent": { "name": "Services", "slug": "/services" }
   },
   {
     "id": "30",
-    "name": "SERVICES",
+    "name": "Digital Marketing",
     "slug": "/services/digital-marketing",
     "pageTitle": "Digital Marketing That Drives Growth",
-    "section_down_scroll": "#service-details-section"
+    "section_down_scroll": "#service-details-section",
+    "parent": { "name": "Services", "slug": "/services" }
   },
   {
     "id": "31",
-    "name": "SERVICES",
+    "name": "Analytics & Insights",
     "slug": "/services/analytics",
     "pageTitle": "Analytics & Insights",
-    "section_down_scroll": "#service-details-section"
+    "section_down_scroll": "#service-details-section",
+    "parent": { "name": "Services", "slug": "/services" }
   },
   {
     "id": "32",
-    "name": "SERVICES",
+    "name": "Brand Development",
     "slug": "/services/brand-development",
     "pageTitle": "Brand Development",
-    "section_down_scroll": "#service-details-section"
+    "section_down_scroll": "#service-details-section",
+    "parent": { "name": "Services", "slug": "/services" }
   },
   {
     "id": "33",
-    "name": "SERVICES",
+    "name": "Automation Services",
     "slug": "/services/automation",
     "pageTitle": "Automation Services",
-    "section_down_scroll": "#service-details-section"
+    "section_down_scroll": "#service-details-section",
+    "parent": { "name": "Services", "slug": "/services" }
   },
   {
     "id": "34",
-    "name": "SERVICES",
+    "name": "Strategy Consultations",
     "slug": "/services/consultations",
     "pageTitle": "Strategy Consultations",
-    "section_down_scroll": "#service-details-section"
+    "section_down_scroll": "#service-details-section",
+    "parent": { "name": "Services", "slug": "/services" }
   },
   {
     "id": "6",
