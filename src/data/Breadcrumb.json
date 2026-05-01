@@ -42,6 +42,41 @@
     "section_down_scroll": "#service-details-section"
   },
   {
+    "id": "30",
+    "name": "SERVICES",
+    "slug": "/services/digital-marketing",
+    "pageTitle": "Digital Marketing That Drives Growth",
+    "section_down_scroll": "#service-details-section"
+  },
+  {
+    "id": "31",
+    "name": "SERVICES",
+    "slug": "/services/analytics",
+    "pageTitle": "Analytics & Insights",
+    "section_down_scroll": "#service-details-section"
+  },
+  {
+    "id": "32",
+    "name": "SERVICES",
+    "slug": "/services/brand-development",
+    "pageTitle": "Brand Development",
+    "section_down_scroll": "#service-details-section"
+  },
+  {
+    "id": "33",
+    "name": "SERVICES",
+    "slug": "/services/automation",
+    "pageTitle": "Automation Services",
+    "section_down_scroll": "#service-details-section"
+  },
+  {
+    "id": "34",
+    "name": "SERVICES",
+    "slug": "/services/consultations",
+    "pageTitle": "Strategy Consultations",
+    "section_down_scroll": "#service-details-section"
+  },
+  {
     "id": "6",
     "name": "CASE STUDY",
     "slug": "/case-study",
