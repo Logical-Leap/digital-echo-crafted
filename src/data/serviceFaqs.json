@@ -1,0 +1,32 @@
+{
+  "digitalMarketing": [
+    { "question": "What digital marketing services do you offer?", "answer": "We cover SEO, paid ads (Google & social), email marketing, content strategy, and analytics. We tailor a mix to your goals and budget." },
+    { "question": "How soon will I see results?", "answer": "Paid campaigns can drive traffic within days. SEO and content typically show meaningful gains in 3–6 months as authority builds." },
+    { "question": "Do you manage ad spend?", "answer": "Yes. We set up, monitor, and optimize campaigns on Google, Meta, and LinkedIn, reporting on ROAS and conversions monthly." },
+    { "question": "Will I get reports?", "answer": "Absolutely. You'll receive a clear monthly report with traffic, conversions, spend, and the next month's plan." }
+  ],
+  "analytics": [
+    { "question": "What analytics platforms do you work with?", "answer": "GA4, Google Tag Manager, Looker Studio, Meta Pixel, and server-side tracking. We can integrate with your CRM too." },
+    { "question": "Can you fix our broken tracking?", "answer": "Yes. We audit your setup, fix event tracking, and document everything so your data is reliable going forward." },
+    { "question": "Do you build dashboards?", "answer": "Yes. We design custom dashboards in Looker Studio so stakeholders see the metrics that matter at a glance." },
+    { "question": "Is this GDPR / privacy compliant?", "answer": "We implement consent-aware tracking and respect user privacy regulations relevant to your audience." }
+  ],
+  "brandDevelopment": [
+    { "question": "What does brand development include?", "answer": "Discovery, positioning, naming (if needed), logo and visual identity, typography, color, voice, and brand guidelines." },
+    { "question": "How long does branding take?", "answer": "A full identity project typically runs 4–8 weeks. Lighter brand refreshes can be completed in 2–3 weeks." },
+    { "question": "Will I own the final assets?", "answer": "Yes. You receive full ownership and source files (AI, SVG, PNG) along with a brand guidelines document." },
+    { "question": "Can you refresh an existing brand?", "answer": "Definitely. We can evolve your current identity to feel modern without losing recognition." }
+  ],
+  "automation": [
+    { "question": "What can you automate?", "answer": "Lead capture and routing, follow-up emails, CRM updates, invoicing, reporting, and repetitive internal tasks." },
+    { "question": "Which tools do you use?", "answer": "Zapier, Make, n8n, native APIs, and custom scripts depending on what fits best with your stack." },
+    { "question": "Will it work with my CRM?", "answer": "Most likely yes. We integrate with HubSpot, Salesforce, Pipedrive, GoHighLevel, Airtable, and many others." },
+    { "question": "How do you handle errors?", "answer": "We build in monitoring and alerting so failed runs are caught and retried, not lost silently." }
+  ],
+  "consultations": [
+    { "question": "What happens on a consultation call?", "answer": "We learn your goals, audit what you have, and leave you with clear next steps you can act on—whether or not you hire us." },
+    { "question": "How long is a consultation?", "answer": "Typically 30–60 minutes via video call. We can extend to a deeper workshop if needed." },
+    { "question": "Is the first call free?", "answer": "Yes. The discovery call is free with no obligation." },
+    { "question": "Do you sign NDAs?", "answer": "Yes. We're happy to sign your NDA before sharing sensitive details." }
+  ]
+}
