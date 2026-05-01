@@ -59,7 +59,7 @@ const Service2 = () => {
                 <h2>How We Expand Your Reach</h2>
               </div>
               <Link
-                href="/services"
+                href="/services/digital-marketing"
                 className="primary-btn2 wow animate fadeInRight"
                 data-wow-delay="200ms"
                 data-wow-duration="800ms"
@@ -91,7 +91,7 @@ const Service2 = () => {
                     </svg>
                   </div>
                   <h5>
-                    <Link href="/services">
+                    <Link href="/services/digital-marketing">
                       Search engine<span>Optimization</span>
                     </Link>
                   </h5>
@@ -106,7 +106,7 @@ const Service2 = () => {
                     </p>
                   </div>
                   <div className="button-area">
-                    <Link className="explore-btn" href="/services">
+                    <Link className="explore-btn" href="/services/digital-marketing">
                       Learn More
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +159,7 @@ const Service2 = () => {
                     </svg>
                   </div>
                   <h5>
-                    <Link href="/services">
+                    <Link href="/services/digital-marketing">
                       Paid search<span>Marketing</span>
                     </Link>
                   </h5>
@@ -174,7 +174,7 @@ const Service2 = () => {
                     </p>
                   </div>
                   <div className="button-area">
-                    <Link className="explore-btn" href="/services">
+                    <Link className="explore-btn" href="/services/digital-marketing">
                       Learn More
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +205,7 @@ const Service2 = () => {
                     </svg>
                   </div>
                   <h5>
-                    <Link href="/services">
+                    <Link href="/services/digital-marketing">
                       Conversion rate<span>Optimization</span>
                     </Link>
                   </h5>
@@ -220,7 +220,7 @@ const Service2 = () => {
                     </p>
                   </div>
                   <div className="button-area">
-                    <Link className="explore-btn" href="/services">
+                    <Link className="explore-btn" href="/services/digital-marketing">
                       Learn More
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -253,7 +253,7 @@ const Service2 = () => {
                     </svg>
                   </div>
                   <h5>
-                    <Link href="/services">
+                    <Link href="/services/digital-marketing">
                       Social media<span>Marketing</span>
                     </Link>
                   </h5>
@@ -268,7 +268,7 @@ const Service2 = () => {
                     </p>
                   </div>
                   <div className="button-area">
-                    <Link className="explore-btn" href="/services">
+                    <Link className="explore-btn" href="/services/digital-marketing">
                       Learn More
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -297,7 +297,7 @@ const Service2 = () => {
                     </svg>
                   </div>
                   <h5>
-                    <Link href="/services">
+                    <Link href="/services/digital-marketing">
                       Email Marketing<span>Solutions</span>
                     </Link>
                   </h5>
@@ -311,7 +311,7 @@ const Service2 = () => {
                     </p>
                   </div>
                   <div className="button-area">
-                    <Link className="explore-btn" href="/services">
+                    <Link className="explore-btn" href="/services/digital-marketing">
                       Learn More
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -344,7 +344,7 @@ const Service2 = () => {
                     </svg>
                   </div>
                   <h5>
-                    <Link href="/services">
+                    <Link href="/services/digital-marketing">
                       Pay-Per-Click (PPC)<span>Advertising</span>
                     </Link>
                   </h5>
@@ -359,7 +359,7 @@ const Service2 = () => {
                     </p>
                   </div>
                   <div className="button-area">
-                    <Link className="explore-btn" href="/services">
+                    <Link className="explore-btn" href="/services/digital-marketing">
                       Learn More
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
