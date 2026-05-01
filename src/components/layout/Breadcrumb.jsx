@@ -63,6 +63,13 @@ const Breadcrumb = () => {
                     <li>
                       <Link href="/">Home</Link>
                     </li>
+                    {currentBreadcrumb.parent && (
+                      <li>
+                        <Link href={currentBreadcrumb.parent.slug}>
+                          {currentBreadcrumb.parent.name}
+                        </Link>
+                      </li>
+                    )}
                     <li>{currentBreadcrumb.name}</li>
                   </ul>
                   <h1>{currentBreadcrumb.pageTitle}</h1>
